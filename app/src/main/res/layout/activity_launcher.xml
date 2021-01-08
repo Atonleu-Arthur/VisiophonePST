@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LauncherActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/beige"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+
+        <EditText
+            android:id="@+id/port"
+            android:layout_width="163dp"
+            android:layout_height="41dp"
+            android:background="@drawable/radius2"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="0000"
+            android:inputType="date"
+            app:layout_constraintBottom_toTopOf="@+id/btnvalider2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AdresseIp"
+            app:layout_constraintVertical_bias="0.48" />
+
+        <EditText
+            android:id="@+id/AdresseIp"
+            android:layout_width="289dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="116dp"
+            android:background="@drawable/radius2"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="192.128.1.23"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textColor="#707070"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.284"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="289dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="116dp"
+            android:background="@drawable/radius2"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Identification"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:textColor="#707070"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.153"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="349dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="56dp"
+            android:gravity="center"
+            android:text="Veillez saisir l'adresse Ip du server et le port"
+            android:textColor="@color/textcolor"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            app:layout_constraintBottom_toTopOf="@+id/editText6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btnvalider2"
+            android:layout_width="270dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="200dp"
+            android:background="@drawable/radiusbuton"
+            android:text="Connection"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtvalues"
+            app:layout_constraintVertical_bias="0.584"
+            tools:ignore="UnknownId" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

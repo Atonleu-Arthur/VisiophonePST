@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#BE2052</color>
+    <color name="colorRed">#EC113D</color>
+    <color name="beige">#ECEEFA</color>
+    <color name="noir">#FFFFFF</color>
+    <color name="panelcolor">#333333</color>
+    <color name="blanc">#FFFFFF</color>
+    <color name="colorbuton">#1A8DFF</color>
+    <color name="colornull"></color>
+    <color name="textcolor">#545555</color>
+</resources>
